@@ -1,0 +1,189 @@
+@media screen and (max-width:1080px) {
+    .heading_section {
+        width: 80%;
+    }
+
+    /* services style  */
+    .services_text {
+        width: 90%;
+    }
+
+    .services_cards {
+        width: 90%;
+    }
+
+    .card {
+        flex-basis: 48%;
+    }
+
+
+    /* services_images */
+    .services_images {
+        width: 90%;
+    }
+
+    /* -- -- - - ratio content-- */
+    .ratio_container {
+        width: 90%;
+    }
+
+    .ratio_cards>div {
+        flex-basis: 48%;
+    }
+    /* -- -  - partner */
+    .aside_container{
+        width: 90%;
+    }
+
+    /* <!-- -- -- - - Mission Section --> */
+    .mission {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /* <!-- -- --- - -   team team_cards --> */
+
+    .team_cards {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .team_cards>div {
+        flex-direction: column;
+    }
+
+    .team_cards img {
+        width: 40%;
+    }
+
+    /* <!-- -- --- - -   payment_plan --> */
+    .payment_plan {
+        width: 90%;
+        row-gap: 20px;
+    }
+
+    .payment_plan>div {
+        flex-basis: calc(50% - 10px);
+    }
+
+    .letter_content{
+        width: 90%;
+    }
+
+
+    /*  --   logos */
+    .logos>div{
+        flex-wrap: wrap;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:720px) {
+    .heading_section {
+        width: 90%;
+    }
+
+    .heading_section>.btns {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .email_section .main_email {
+        flex-basis: 90%;
+    }
+
+    .form_div form {
+        /* flex-direction: column; */
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .form_div input {
+        flex-basis: 100%;
+    }
+
+    .form_div button {
+        flex-basis: 100%;
+
+    }
+
+    /* services style  */
+    .card {
+        flex-basis: 100%;
+    }
+
+    /* -- -  -- services visual_stats */
+    .services_images {
+        display: grid;
+        grid-template-columns: repeat(auto, 1fr);
+        grid-template-rows: repeat(auto, 300px);
+        justify-content: stretch;
+    }
+
+    .services_images>div {
+        width: 100%;
+        height: 265px;
+    }
+
+    .services_images img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* <!-- -- - - ratio content--> */
+
+    .ratio_cards {
+        flex-direction: column;
+    }
+
+    /* <!-- -- - - partner--> */
+
+    .aside_container {
+        flex-direction: column;
+        width: 90%;
+
+    }
+
+    .aside_container>aside {
+        flex-basis: 100%;
+    }
+
+    /* <!-- -- --- - -   payment_plan --> */
+
+    .payment_plan{
+        flex-direction: column;
+    }
+    .payment_plan > div{
+        flex-basis: 100%;
+    }
+    /* <!-- -- --- - -   logos--- --> */
+    .logos>div{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .logos>div>div{
+        flex-basis: 100%;
+    }
+    .logos img{
+        width: 150px;
+        height: 150px;
+    }
+
+    /* <!--  -- - - -   -  newsletter --> */
+    .input_btn{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .letter_content :is(h2, p, div){
+        width: 100% !important;
+    }
+}
